@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zellbury</title>
+    <link rel="shortcut icon" href="./images/brand logos/c.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- bootstrap links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- jquery file  -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav start   -->
+    <div class="container-fluid g-0" style="margin-top: -50px; padding: 0px;">
+        <nav class="navbar navbar-expand-lg navbar-light custom main-nav p-0">
+            <a class="navbar-brand" href="./index.html"><img src="./images/brand logos/c.png" alt="" height="100%"
+                    width="120px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <span class="mx-auto">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link  text-center mx-2" aria-current="page" href="./index.html"
+                                id="nav">Home</a>
+                        </li>
+                        <li class="nav-item dropdown text-center mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" id="nav">
+                                Mens
+                            </a>
+                            <ul class="dropdown-menu" id="mendrop">
+                                <li><a class="dropdown-item text-center" href="./gulahmedmen.html">Gul Ahmed</a></li>
+                                <li><a class="dropdown-item text-center" href="./j.html">J.</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-center" href="./Charcoal.html">Charcoal</a></li>
+                                <li><a class="dropdown-item text-center" href="./hoodie.html">Diners</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown text-center mx-2">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" id="nav">
+                                Womens
+                            </a>
+                            <ul class="dropdown-menu" id="womendrop">
+                                <li><a class="dropdown-item text-center" href="./Khaadi.html">Khaadi</a></li>
+                                <li><a class="dropdown-item text-center" href="./Laam.html">Laam</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-center" href="./almirah.html">Almirah</a></li>
+                                <li><a class="dropdown-item text-center" href="./zellbury.html">Zellbury</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown text-center mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" id="nav">
+                                Collections
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-center" href="./Wallet.html"> Wallets</a></li>
+                                <li><a class="dropdown-item text-center" href="./Perfume.html"> Perfumes</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-center" href="./Watches.html"> Watches</a></li>                                <li><a class="dropdown-item text-center" href="./Shoes.html">Shoes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-center mx-2" href="./about.html" id="nav">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center mx-2" href="./contact.html" id="nav">Contact</a>
+                        </li>
+
+                    </ul>
+                </span>
+                <span class="d-flex">
+                    <nav class="navbar">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <a href="mailto: firstfashion@gmail.com">
+                                    <i class="fa fa-envelope" style="font-size:26px" id="envelop-1"></i>
+                                </a>
+                            </a>
+                        </div>
+                    </nav>
+                </span>
+
+            </div>
+        </nav>
+    </div>
+<!-- nav end  -->
+
+<!-- navbar end -->
+<marquee behavior="" direction="left"
+style="background-color: black; color: white; font-size: 30px; margin-top: 50px;">Clearence Sale Of The Year.
+Get UpTo 60% off.</marquee>
+<!-- zelburry -->
+<div class="container text-center mt-3">
+    <span>  <a href=" " class="text-center mb-2 mt-2"><img  class="img-fluid" src="./images/zelburry/zelburry_logo-removebg-preview.png" alt="" height="200px" width="250px" style="border: none;"></a> </span>
+</div>
+
+<!--zellburry products -->
+<div class="container ">
+  <div class="row g-4 my-2">
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card"  >
+              <div class="img-con ">
+              <img src="./images/Laam/img 4.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">Lawn | Printed</p>
+                <h5 class="card-title">Tailored 3 Piece</h5>
+                <h6>PKR 7,000</h6>
+                <p class="card-text">
+                  SKU: ALA231231ST
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 01.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card"  >
+              <div class="img-con ">
+              <img src="./images/Laam/img 6.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">Dobby | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 5,500</h6>
+                <p class="card-text">
+                  SKU: ALA231231
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 02.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card"  >
+              <div class="img-con ">
+              <img src="./images/Laam/img 9.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">Lawn | Embroidered</p>
+                <h5 class="card-title">Tailored 3 Piece</h5>
+                <h6>PKR 5,500</h6>
+                <p class="card-text">
+                  SKU: BLA231213
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 03.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-10.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">Lawn | Printed</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 7,000</h6>
+                <p class="card-text">
+                  SKU: BLA231234
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 04.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-11.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">lawn | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 4,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 05.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-12.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">awn | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 4,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 06.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-13.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">awn | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 4,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 07.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-15.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">awn | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 4,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 08.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-16.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">awn | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 4,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 09.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-2.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">awn | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 4,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 10.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-7.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">awn | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 4,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 11.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-8.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">awn | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 4,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 12.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img 4.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">cambric | Embroidered</p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 6,700</h6>
+                <p class="card-text">
+                  SKU: ALA231220
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 13.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-10.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">lawn | Embroidered</p>
+                <h5 class="card-title">Fabrics 2 Piece</h5>
+                <h6>PKR 3,500</h6>
+                <p class="card-text">
+                  SKU: ALA231231ST
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 14.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-13.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">
+                      Dobby | Embroidered
+                      </p>
+                <h5 class="card-title">Fabrics 3 Piece</h5>
+                <h6>PKR 8,500</h6>
+                <p class="card-text">
+                  SKU: BLA231205
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 15.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-3  " data-aos="fade-down"  data-aos-duration="2000">
+          <div class="card" id="full-card" >
+              <div class="img-con ">
+              <img src="./images/Laam/img-11.jpg" class="card-img-top" alt="..." id="img-card"> 
+          </div>
+              <div class="card-body">
+                  <p style="font-size: small;">Cambric | Printed</p>
+                <h5 class="card-title">Fabrics 2 Piece</h5>
+                <h6>PKR 2,800</h6>
+                <p class="card-text">
+                  SKU: LLA231208
+                  </p>
+                  <div class="download text-center  d-flex justify-content-evenly">
+                  <a href="./Info/almirah word files/almirah 16.docx" class="btn btn-outline-dark" ><span>Information &nbsp;</span><img src="./images/icons/download.png" class="img-thumbnail" alt="" style="border: none; border-radius: 100%; height: 35px; width: 35px;" ></a>
+              </div>
+              </div>
+            </div>
+      </div>
+</div>
+</div>
+<!-- womens product end  -->
+    <!-- compare sec start -->
+    <div class="container">
+      <div class="row my-5">
+          <div class="col-md-12 col-sm-12 col-lg-12 mx-auto">
+              <table class="table">
+                  <tr>
+                      <td colspan="3" class="text-center text-dark">
+                          <h1>Compare</h1>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Select Charcoal Products</td>
+                      <td><select name="" id="select1" class="form-control" onchange="item1(this.value)"></select>
+                      </td>
+                      <td><select name="" id="select2" class="form-control" onchange="item2(this.value)"></select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Product Image</td>
+                      <td><img src=" ./assets/otherimages/No_Image.png" alt="" id="image1" class="img-thumbnail">
+                      </td>
+                      <td><img src="./assets/otherimages/No_Image.png" alt="" id="image2" class="img-thumbnail">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Product Size</td>
+                      <td id="size1"></td>
+                      <td id="size2"></td>
+                  </tr>
+                  <tr>
+                      <td>New Arrivals</td>
+                      <td id="arrival1"></td>
+                      <td id="arrival2"></td>
+                  </tr>
+                  <tr>
+                      <td>Product Price</td>
+                      <td id="price1"></td>
+                      <td id="price2"></td>
+                  </tr>
+                  <tr>
+                      <td>Product Description</td>
+                      <td id="des1"></td>
+                      <td id="des2"></td>
+                  </tr>
+                  <tr>
+                      <td>Product Brand</td>
+                      <td id="brand1"></td>
+                      <td id="brand2"></td>
+                  </tr>
+                  <tr>
+                      <td>Product Material</td>
+                      <td id="material1"></td>
+                      <td id="material2"></td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+  </div>
+  <!-- compare sec end -->
+<!-- zelburry end -->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks: </span>
+      </div>
+      <!-- Left -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>First Fashion
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none"
+                >handbags</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none"
+                >Clothes</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none"
+                >watches</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none"
+                >Shoes</a
+              >
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none"
+                >Pricing</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none"
+                >Settings</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none"
+                >Orders</a
+              >
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none"
+                >Help</a
+              >
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Karachi, Pakistan</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              firstfashion@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+      class="text-center p-4"
+      style="background-color: rgba(0, 0, 0, 0.05)"
+    >
+      © 2024 Copyright:
+      <a
+        class="text-reset fw-bold"
+        href="file:///C:/Users/asp/Documents/E-project/e-project%20coding/index.html"
+        >Fashion Products</a
+      >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- footer end -->
+  <!-- data js  -->
+  <script src="./js/WomenData/zellburydata.js"></script>
+  <script src="./js/compareapp.js"></script>
+  <!-- AOS js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- initialized form of AOS animation -->
+<script>
+    AOS.init();
+  </script>
+  </body>
+  </html>

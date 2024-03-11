@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Fashion</title>
+  <link rel="shortcut icon" href="./images/brand logos/c.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- AOS animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- bootstrap links -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- jquery file  -->
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <!-- icon link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- navbar Start -->
+  <div class="container-fluid g-0 " style="margin-top: -50px; padding: 0px;">
+    <nav class="navbar navbar-expand-lg navbar-light custom main-nav p-0">
+      <a class="navbar-brand" href="./index.html"><img src="./images/brand logos/c.png" alt="" height="100%"
+          width="120px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="nav-btn">
+        <span><i class="fas fa-bars" style="color: #000000;" id="nav-icon"> </i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <span class="mx-auto">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active text-center mx-2" aria-current="page" href="./index.html" id="nav-a">Home</a>
+            </li>
+            <li class="nav-item dropdown text-center mx-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                id="nav-a">
+                Mens
+              </a>
+              <ul class="dropdown-menu" id="mendrop">
+                <li><a class="dropdown-item text-center" href="./gulahmedmen.html">Gul Ahmed</a></li>
+                <li><a class="dropdown-item text-center" href="./j.html">J.</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-center" href="./Charcoal.html">Charcoal</a></li>
+                <li><a class="dropdown-item text-center" href="./hoodie.html">Diners</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown text-center mx-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                id="nav-a">
+                Womens
+              </a>
+              <ul class="dropdown-menu" id="womendrop">
+                <li><a class="dropdown-item text-center" href="./Khaadi.html">Khaadi</a></li>
+                <li><a class="dropdown-item text-center" href="./Laam.html">Laam</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-center" href="./almirah.html">Almirah</a></li>
+                <li><a class="dropdown-item text-center" href="./zellbury.html">Zellbury</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center mx-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                id="nav-a">
+                Collections
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-center" href="./Wallet.html"> Wallets</a></li>
+                <li><a class="dropdown-item text-center" href="./Perfume.html"> Perfumes</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-center" href="./Watches.html"> Watches</a></li>
+                <li><a class="dropdown-item text-center" href="./Shoes.html">Shoes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center mx-2" href="./about.html" id="nav-a">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center mx-2" href="./contact.html" id="nav-a">Contact</a>
+            </li>
+
+          </ul>
+        </span>
+        <span class="d-flex">
+          <nav class="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <a href="mailto: firstfashion@gmail.com">
+                  <i class="fa fa-envelope" style="font-size:26px" id="envelop"></i>
+                </a>
+              </a>
+            </div>
+          </nav>
+        </span>
+
+      </div>
+    </nav>
+    <video loop autoplay muted class="object-fit-contain" style="width: 100%; margin-top:-15px ; padding: 0px;"
+      id="video">
+      <source src="./video/2.mp4" type="video/mp4">
+    </video>
+
+  </div>
+  <!-- navbar end -->
+
+  <!-- main section start  -->
+  <!-- mens and womens main start -->
+  <div class="main-sec-container" style="margin-top:-10px ;">
+    <div class="row g-0" style="padding: 0px; margin: 0px">
+      <div class="col-sm-12 col-md-6 col-lg-6 left-box col">
+        <div class=" main-sec-card text-bg-dark">
+          <img src="./images/main cards/women1.png" class="card-img" alt="..." />
+          <div class="card-img-overlay home-main-overlay position-absolute">
+            <div class="main-card-btn position-absolute top-50 start-50 translate-middle mb-5 ">
+              <h3 class="card-title text-center main-overlay-text">WOMENS</h3>
+              <a href="./women.html" class="btn btn-dark text-center">See All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 right-box col">
+        <div class=" main-sec-card text-bg-dark">
+          <img src="./images/main cards/mens.png" class="card-img" alt="..." />
+          <div class="card-img-overlay home-main-overlay position-absolute">
+            <div class="main-card-btn position-absolute top-50 start-50 translate-middle mb-5">
+              <h3 class="card-title text-center main-overlay-text">MENS</h3>
+              <a href="./men.html" class="btn btn-dark ">See All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mens and womens main end -->
+    <!-- Kids main start -->
+    <div class="row " style="padding: 0px; margin: 0px">
+      <div class="col-sm-12 col-md-12 col-lg-12 col bottom-box" style="padding: 0px">
+        <div class=" main-sec-card text-bg-dark">
+          <img src="./images/main cards/watch.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay home-main-overlay position-absolute">
+            <div class="main-card-btn position-absolute top-50 start-50 translate-middle mb-5">
+              <h3 class="card-title text-center main-overlay-text">WATCHES</h3>
+              <a href="./Watches.html" class="btn btn-dark see-btn text-center">See All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Kids main end  -->
+    <!-- perfumes and bags start   -->
+
+    <div class="row g-0 third-sec " style="padding: 0px; margin: 0px;">
+      <div class="col-sm-12 col-md-6 col-lg-6 left-box col">
+        <div class=" main-sec-card  text-bg-dark">
+          <img src="./images/main cards/perfumes.jpg" class="card-img " alt="..." />
+          <div class="card-img-overlay home-main-overlay position-absolute">
+            <div class="main-card-btn position-absolute top-50 start-50 translate-middle mb-5">
+              <h3 class="card-title text-center main-overlay-text">PERFUMES</h3>
+              <a href="./Perfume.html" class="btn btn-dark see-btn">See All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 right-box col">
+        <div class=" main-sec-card  text-bg-dark">
+          <img src="./images/louis vuittion products/5.jpg" class="card-img " alt="..." />
+          <div class="card-img-overlay home-main-overlay position-absolute">
+            <div class="main-card-btn position-absolute top-50 start-50 translate-middle mb-5">
+              <h3 class="card-title text-center main-overlay-text">BAGS</h3>
+              <a href="./Wallet.html" class="btn btn-dark see-btn">See All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- perfumes and bags end   -->
+    <!-- shoes sec start -->
+    <div class="row " style="padding: 0px; margin: 0px">
+      <div class="col-sm-12 col-md-12 col-lg-12 col bottom-box" style="padding: 0px">
+        <div class=" main-sec-card text-bg-dark">
+          <img src="./images/main cards/shoes.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay home-main-overlay position-absolute">
+            <div class="main-card-btn position-absolute top-50 start-50 translate-middle mb-5">
+              <h3 class="card-title text-center main-overlay-text">SHOES</h3>
+              <a href="./Shoes.html" class="btn btn-dark see-btn text-center">See All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- shoes sec end -->
+  </div>
+  <!-- main section end  -->
+
+  <!-- new arrivals sec start  -->
+
+  <!-- new arrivals sec end  -->
+  <!-- main info section start -->
+  <div class="main-info-section ">
+    <div class="container p-5">
+      <div class="row g-1">
+        <div class="col-sm-4 col-md-4 col-lg-4 col ">
+          <div class="card" style="border: none ;background: transparent;">
+            <div class="image text-center">
+              <i class="fa fa-address-card icons-add" aria-hidden="true" style="font-size: 120px;"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="text-center">Address:</h3>
+              <p class="card-text text-center">House No.123 North Nazimabad Block H , Near Aptech, Karchi, Pakistan
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 col">
+          <div class="card main-info-card" style="border: none ;background: transparent;">
+            <div class="image text-center">
+              <i class="fa fa-phone-square" aria-hidden="true" style="font-size: 120px;"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="text-center">Telephone</h3>
+              <p class="card-text text-center">
+                <strong>Tel-1:</strong> + 01 234 567 88 , + 01 234 567 89
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 col">
+          <div class="card main-info-card" style="border: none;background: transparent;">
+            <div class="image text-center">
+              <i class="fa fa-user-circle-o" aria-hidden="true" style="font-size: 120px;"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="text-center">Customer Support</h3>
+              <p class="card-text text-center">
+                Click <a href="mailto: firstfashion@gmail.com"> <strong>HERE</strong></a> For customer
+                support
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- main info section  end -->
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted" id="foot">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block sec icon-div">
+        <span>Get connected with us on social networks: </span>
+        <a href="https://web.whatsapp.com/" target="blank"> <i
+            class="fa-brands fa-whatsapp mx-2 main-icons green"></i></a>
+        <a href="https://www.facebook.com/" target="blank"> <i
+            class="fa-brands fa-facebook mx-2 main-icons blue"></i></a>
+        <a href="https://twitter.com/?lang=en" target="blank"> <i
+            class="fa-brands fa-twitter mx-2 main-icons blue"></i></a>
+        <a href="https://www.instagram.com/" target="blank"><i
+            class="fa-brands fa-instagram mx-2 main-icons red"></i></a>
+        <a href="https://www.tiktok.com/explore" target="blank"> <i
+            class="fa-brands fa-tiktok mx-2 main-icons multi"></i></a>
+        <a href="https://www.youtube.com/" target="blank"> <i class="fa-brands fa-youtube mx-2 main-icons red"></i></a>
+      </div>
+      <!-- Left -->
+    </section>
+    <!-- Section: Social media -->
+    <section class="sec">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>First Fashion
+            </h6>
+            <p>
+              Welcome to FirstFashion, your ultimate destination for exploring the latest trends, iconic styles, and
+              exclusive insights into the world of fashion.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mx-2">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-2">Products</h6>
+            <p class="foot-item">
+              <a href="./men.html" class="text-reset " style="text-decoration: none ;">Mens Wear</a>
+            </p>
+            <p class="foot-item">
+              <a href="./women.html" class="text-reset " style="text-decoration: none ;">Womens Wear</a>
+            </p>
+            <p class="foot-item">
+              <a href="./Watches.html" class="text-reset " style="text-decoration: none ;">Watches</a>
+            </p>
+            <p class="foot-item">
+              <a href="./Watches.html" class="text-reset " style="text-decoration: none ;">Bags</a>
+            </p>
+            <p class="foot-item">
+              <a href="./Perfume.html" class="text-reset " style="text-decoration: none ;">Perfumes</a>
+            </p>
+            <p class="foot-item">
+              <a href="./Shoes.html" class="text-reset " style="text-decoration: none ;">Shoes</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+            <p class="foot-item">
+              <a href="#!" class="text-reset " style="text-decoration: none ;">Home</a>
+            </p>
+            <p class="foot-item">
+              <a href="./contact.html" class="text-reset " style="text-decoration: none ;">Contact Us </a>
+            </p>
+            <p class="foot-item">
+              <a href="./about.html" class="text-reset" style="text-decoration: none ;">About Us </a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Karachi, Pakistan</p>
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              firstfashion@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Links end  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4 sec" style="background-color: rgba(0, 0, 0, 0.05)">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="">Fashion Products</a>
+    </div>
+  </footer>
+  <!-- footer end -->
+  <script src="./js/app.js"></script>
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- initialized form of AOS animation -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
